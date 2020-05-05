@@ -117,7 +117,7 @@ darkmode: true
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  about: /about/ || fa fa-user
+  # about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
@@ -177,7 +177,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/haoyangyuying || fab fa-github
+  GitHub: https://haoyangyuying.github.io || fab fa-github
   E-Mail: mailto:yanghaoyuying@gmail.com || fa fa-envelope
   # Weibo: https://weibo.com/yanghaoyuying || fab fa-weibo
   # Google: https://plus.google.com/yanghaoyuying || fab fa-google
@@ -198,10 +198,10 @@ links_settings:
   icon: fa fa-link
   title: Links
   # Available values: block | inline
-  layout: block
+  layout: inline
 
 # links:
-#   Title: http://haoomedia.wordpress.com
+#   Title:
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
